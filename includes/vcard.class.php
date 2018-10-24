@@ -857,7 +857,7 @@ class vCard{
 	*/
 	public function getCardFilePath(){
 		$path_parts = pathinfo($_SERVER['SCRIPT_NAME']);
-		$port = (($_SERVER['SERVER_PORT'] != 8080) ? ':' . $_SERVER['SERVER_PORT'] : '' );
+		$port = (($_SERVER['SERVER_PORT'] != 80) ? ':' . $_SERVER['SERVER_PORT'] : '' );
 		return 'http://' . $_SERVER['SERVER_NAME'] . $port . $path_parts["dirname"] . '/' . $this->download_dir . '/' . $this->card_filename;
 	}    
 } // end class vCard
