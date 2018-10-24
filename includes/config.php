@@ -4,23 +4,23 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 
 $info = array(
-	'firstName'		=> 'John',
+	'firstName'		=> 'Navoday',
 	'middleName'	=> 'S.',
-	'lastName'		=> 'Smith',
+	'lastName'		=> 'Tomar',
 	'photoURL'		=> 'assets/img/photo.jpg',
-	'birthDay'		=> strtotime('22-03-1983'),
-	'city'			=> 'MyCity',
+	'birthDay'		=> strtotime('09-10-1991'),
+	'city'			=> 'San Jose',
 	'country'		=> 'United States',
-	'street'		=> 'My Street 21',
-	'zip'			=> '12345',
-	'company'		=> 'Google Inc',
-	'website'		=> 'http://tutorialzine.com/',
-	'email'			=> 'email@example.com',
+	'street'		=> '3488 Cortese Cir',
+	'zip'			=> '95127',
+	'company'		=> 'SJSU',
+	'website'		=> 'https://github.com/navoday-91',
+	'email'			=> 'navoday.tomar@sjsu.edu',
 	'cellphone'		=> '12345678910',
-	'description'	=> "I am a webdeveloper living in California. I enjoy designing and coding web applications, photography, surfing and music.\n\nFollow me on twitter or facebook.",
-	'tags'			=> 'Developer, Designer, Photographer',
+	'description'	=> "I am a Python Developer living in California. I enjoy designing and coding API(s), Swimming, Snowboarding and Music.\n\nFollow me on twitter or facebook.",
+	'tags'			=> 'Developer, Swimmer, Programmer, API',
 	'facebook'		=> 'http://www.facebook.com/',
-	'twitter'		=> 'http://twitter.com/Tutorialzine'
+	'twitter'		=> 'http://twitter.com/'
 );
 
 
