@@ -63,11 +63,6 @@ else if(array_key_exists('vcard',$_GET)){
             <a href="?json" class="json">Get as a JSON feed</a>
             <p>In this tutorial: <a href="http://www.flickr.com/photos/levycarneiro/4144428707/">Self Portrait</a> by <a href="http://www.flickr.com/photos/levycarneiro/">Levy Carneiro Jr</a></p>
         </section>
-        
-        <footer>
-	        <h2>Creating a PHP &amp; CSS Powered About Page</h2>
-            <a class="tzine" href="http://tutorialzine.com/2011/07/about-page-vcard-php-css/">Read &amp; Download on</a>
-        </footer>
           
     </body>
 </html>
